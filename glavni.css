@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 228, 235);
+}
+header{
+    height: 130px;
+    font-family: 'lobster', cursive;
+    background-image: url(Screen\ Shot\ 2023-05-20\ at\ 4.33.51\ PM.png);
+    object-position: 20px;
+}
+.naslov{
+    border: 0px;
+    margin: 0px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 4em;
+}
+nav ul {
+    margin-top: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    float: left;
+    position: absolute;
+    left: 34%;
+    text-transform: uppercase;
+}
+  
+nav li {
+    display: inline-block;
+  }
+  
+nav a {
+    background-image: url(ssm.png);
+    color:white;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  
+nav a:hover {
+    background-image: url(Screen\ Shot\ 2023-05-20\ at\ 4.33.51\ PM.png);
+    box-shadow: 1 0 1px 1px rgba(1, 0, 0, .3);
+    color: black;
+  }
+hr{
+    margin-top: 100px;
+    border-color: black;
+}
+p{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 50px;
+
+}
+footer{
+    height:35px;
+    background-image: url(ssm.png);
+    text-align: center;
+  }
+  
+  footer p{
+    color: white;
+    padding-top: 10px;
+  }
+.ng{
+    margin-top:100px;
+}
+.hrvatska{
+    background-color: bisque;
+}
+.grkn{
+    background-image: url(ssm.png);
+    color:white;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 615px;
+    margin-right: 615px;
+}
+
+
+
